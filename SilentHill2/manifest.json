@@ -1,0 +1,89 @@
+{
+  "name": "SILENT HILL II",
+  "description": "In my restless dreams, I see that town. Silent Hill. You promised you'd take me there again someday. But you never did. Well I'm alone there now.",
+  "developer": {
+    "name": "Daniel2209"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "background_music": [
+        "music/White Noiz, Promise (Reprise), A World of Madness, Theme of Laura.mp3"
+      ],
+      "browser_sounds": {
+        "CLICK": [
+          "sound/Silent Hill 2 Menu Sound (VERY SHORT)_zEb_4DK2Tbk.mp3"
+        ],
+        "FEATURE_SWITCH_OFF": ["sound/SOUND_0713.mp3"],
+        "FEATURE_SWITCH_ON": ["sound/SOUND_0712.mp3"],
+        "HOVER": ["sound/SH2 Door Rattle.mp3"],
+        "IMPORTANT_CLICK": [
+          "sound/Silent Hill 2 Menu Sound (VERY SHORT)_zEb_4DK2Tbk.mp3"
+        ],
+        "SWITCH_TOGGLE": ["sound/SOUND_0712.mp3"],
+        "TAB_CLOSE": ["sound/SH2 Pyramid Head Drags Knife 03.mp3"],
+        "TAB_INSERT": ["sound/SH2 Pyramid Head Drags Knife 01.mp3"],
+        "TAB_SLASH": ["sound/SH2 Pyramid Head Drags Knife 02.mp3"]
+      },
+      "keyboard_sounds": {
+        "TYPING_BACKSPACE": ["keyboard/SH2 Save Memory Card Switch.mp3"],
+        "TYPING_ENTER": [
+          "keyboard/Silent Hill 2 Menu Sound (VERY SHORT)_zEb_4DK2Tbk.mp3"
+        ],
+        "TYPING_LETTER": [
+          "keyboard/SH2 Footstep Carpet.mp3",
+          "keyboard/SH2 Footstep Concrete.mp3",
+          "keyboard/SH2 Footstep Stairs.mp3",
+          "keyboard/SH2 Footstep Water.mp3"
+        ],
+        "TYPING_SPACE": ["keyboard/SH2 Recieve Item.mp3"]
+      },
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 122,
+            "s": 100,
+            "l": 88
+          },
+          "gx_secondary_base": {
+            "h": 106,
+            "s": 20,
+            "l": 100
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 116,
+            "s": 0,
+            "l": 1
+          },
+          "gx_secondary_base": {
+            "h": 116,
+            "s": 0,
+            "l": 1
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/Silent-Hill-2-Intro-HD-Remastered.webm",
+          "first_frame": "wallpaper/firstframe.jpg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#000"
+        },
+        "light": {
+          "image": "wallpaper/Silent-Hill-2-Intro-HD-Remastered.webm",
+          "first_frame": "wallpaper/firstframe.jpg",
+          "text_color": "FFFFFF",
+          "text_shadow": "#000"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}
